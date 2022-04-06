@@ -3,5 +3,70 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FAFAFA;
 	
+}
+.main-picture{
+    text-align: center;
+    margin: 60px auto 40px auto;
+}
+.main-text{
+    font-size: 28px;
+    text-align: center;
+}
+.paragraph{
+    text-align: center;
+    font-size: 16px;
+    color: #8B8B8B;
+    max-width: 460px;
+    margin:42px auto  30px auto;
+  
+}
+.button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #407BFF;
+    padding: 11px 30px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: white;
+    border: none;
+
+}
+.beach{
+    background-color: #8B8B8B;
+    margin-top: 10px;
+}
+.travel-office-services{
+    text-align: center;
+}
+h2{
+    margin-top: 60px;
+    font-size: 16px;
+}
+.card{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin:0 auto 15px auto;
+    max-width: 460px;
+    
+}
+.icon{
+   
+    padding: 20px;
+    
+}
+.card p{
+    color: #8B8B8B;
+    font-size: 13px;
+    margin: auto;
+}
+.delegate-services{
+    text-align: center;
+}
+footer{
+    height: 40px;
 }
