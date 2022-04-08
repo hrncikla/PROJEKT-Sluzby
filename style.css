@@ -24,20 +24,27 @@ body {
   
 }
 .button{
-    display: block;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     background-color: #407BFF;
     padding: 11px 30px;
     border-radius: 20px;
     font-size: 14px;
-    color: white;
+    width: 195px;
     border: none;
 
+}
+.button a{
+    display: block;
+    color: white;
+    text-decoration: none;
 }
 .beach{
     background-color: #8B8B8B;
     margin-top: 10px;
+    width: 220px;
+    padding: 11px 29px;
 }
 .travel-office-services{
     text-align: center;
@@ -52,6 +59,7 @@ h2{
     border-radius: 10px;
     margin:0 auto 15px auto;
     max-width: 460px;
+    box-shadow: #8b8b8b8f 1px 1px 4px;
     
 }
 .icon{
@@ -69,4 +77,121 @@ h2{
 }
 footer{
     height: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .button{
+        margin-left: 20px;
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+    .cards{
+        max-width: 730px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card{
+        max-width: 230px;
+        display: flex;
+        flex-direction: column;
+        padding: 40px 10px;
+        text-align: center;
+    }
+    .icon{
+        padding: 0 0 20px 0;  
+    }
+    .paragraph{
+        max-width: 550px;
+    }
+}
+@media only screen and (min-width: 1100px){
+
+    .pc-container{
+        display: flex;
+        max-width: 1040px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+    .main-text{
+        text-align: left;
+        
+    }
+    h1{
+        text-align: left;
+        margin-bottom: 42px;
+    }
+    .main-picture{
+        order: 1;
+        margin: 0;
+        margin-left: 60px;
+        padding: 0;
+    }
+    .main-content{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .travel-office-services{
+        order: 1;
+    }
+    .main-picture{
+        width: 490px;
+    }
+    .main-content{
+        width: 490px;
+    }
+    
+    .container{
+      justify-content: left;
+    }
+    .button{
+        margin-left: 0;
+    }
+    .beach{
+        margin-left: 20px;
+    }
+    .cards{
+        width: 550px;
+        justify-content: space-between;
+    }
+    .card{
+        width: 170px;
+        text-align: center;
+        margin:10px;
+        padding: 40px 10px;
+    }
+    .first{
+        margin-left:0px;
+    }
+    .last{
+        margin-right:0px;
+    }
+
+    .card p{
+        width: 140px;
+    }
+    .paragraph,
+    h2{
+        text-align: left;
+        margin-bottom: 17px;
+        margin-top: 0;
+    }
+    .travel-office-services,
+    .delegate-services{
+        margin-left: 60px;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 490px;
+    }
+    .delegate-services{
+        margin-left: 0px;
+        margin-right: 60px;
+        
+    }
+
 }
